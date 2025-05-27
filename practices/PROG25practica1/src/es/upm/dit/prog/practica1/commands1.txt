@@ -1,0 +1,91 @@
+# recorrido ENWS bateria
+pos 0 0
+vel 0 0
+rover R1 0 200.0
+
+mover1 0
+status
+
+vel 0.05 0
+addvel
+mover1 10000
+status
+
+vel 0 0.05
+addvel
+mover1 12000
+status
+
+vel -0.05 0
+addvel
+mover1 22000
+status
+
+vel 0 -0.05
+addvel
+mover1 24000
+status
+
+# recorrido ENWS sin bateria
+pos 0 0
+vel 0 0
+rover R2 0 100.0
+
+mover1 0
+status
+
+vel 0.05 0
+addvel
+mover1 10000
+status
+
+vel 0 0.05
+addvel
+mover1 12000
+status
+
+vel -0.05 0
+addvel
+mover1 22000
+status
+
+vel 0 -0.05
+addvel
+mover1 24000
+status
+
+
+# rovers con igual x pero acercándose en y
+pos 0 0
+vel 0.05 0
+rover R31 0 200.0
+pos 1000 0
+vel -0.05 0
+rover R32 0 200.0
+
+# no hay peligro
+mover1 1000
+mover2 1000
+peligro
+
+# no hay peligro
+mover1 5000
+mover2 5000
+peligro
+
+# en peligro
+mover1 9990
+mover2 9990
+peligro
+
+# en peligro
+mover1 10000
+mover2 10000
+peligro
+
+# paso el peligro
+mover1 12000
+mover2 12000
+peligro
+
+exit

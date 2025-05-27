@@ -1,0 +1,120 @@
+#mision completa
+pos 0 0
+vel 0.05 0
+rover r1 0 200.0
+mision m1 1
+pos 0.5 0
+addpos
+mover1 10
+update 10
+mover 20
+update 20
+show
+
+#mision incompleta
+pos 0 0
+vel 0 0
+rover r2 0 200.0
+mision m1 5
+pos 0 0
+addpos
+pos 1000 0
+addpos
+pos 1000 200
+addpos
+pos 0 200
+addpos
+pos 0 0
+
+mover1 0
+update 0
+show
+mover1 20000
+update 20000
+show
+mover1 24000
+update 24000
+show
+mover1 44000
+update 44000
+show
+mover1 48000
+update 48000
+show
+
+
+
+# crea una misión con tiempos 0 10 110 200 300 310
+pos 0 0
+vel 0 0
+rover r1 0 
+mision m1 6
+pos 0 0
+addpos 0
+pos 0 0
+addpos 10
+pos -200 150
+addpos 110
+pos 100 150
+addpos 200
+pos 0 0
+addpos 300
+pos 0 0
+addpos 310
+
+# mueve el explorer y actualiza la misión
+mover1 0
+update 0
+show
+mover1 10
+update 10
+show
+mover1 110
+update 110
+show
+mover1 200
+update 200
+show
+mover1 300
+update 300
+show
+mover1 310
+update 310
+show
+
+
+# m2
+pos 0 0
+vel 0 0
+rover r3 0 80.0
+mision m3 5
+pos 0 0
+addpos
+pos 0 200
+addpos
+pos 1000 200
+addpos
+pos 1000 0
+addpos
+pos 0 0
+addpos
+
+# mueve el explorer y actualiza la misión
+mover1 0
+update 0
+show
+mover1 4000
+update 4000
+show
+mover1 24000
+update 24000
+show
+mover1 28000
+update 28000
+show
+mover1 48000
+update 48000
+show
+mover1 50000
+update 50000
+show

@@ -1,0 +1,299 @@
+## escenario 1
+# recorrido ENWS bateria
+pos 0 0
+vel 0 0
+rover R1 0 200.0
+mision M1 5
+pos 0 0
+addpos
+pos 500 0 
+addpos
+pos 500 100
+addpos
+pos 0 100
+addpos
+pos 0 0
+addpos
+
+mover1 0
+update 0
+show
+mover1 10000
+update 10000
+show
+mover1 12000
+update 12000
+show
+mover1 22000
+update 22000
+show
+mover1 24000
+update 24000
+show
+
+
+# recorrido ENWS sin bateria
+pos 0 0
+vel 0 0
+rover R2 0 150.0
+mision M2 5
+pos 0 0
+addpos
+pos 500 0 
+addpos
+pos 500 100
+addpos
+pos 0 100
+addpos
+pos 0 0
+addpos
+
+mover1 0
+update 0
+show
+mover1 10000
+update 10000
+show
+mover1 12000
+update 12000
+show
+mover1 22000
+update 22000
+show
+mover1 24000
+update 24000
+show
+
+## escenario 2
+# recorrido NESW bateria
+pos 0 0
+vel 0 0
+rover R3 0 200.0
+mision M3 5
+pos 0 0
+addpos
+pos 0 100 
+addpos
+pos 500 100
+addpos
+pos 500 0
+addpos
+pos 0 0
+addpos
+
+mover1 0
+update 0
+show
+mover1 2000
+update 2000
+show
+mover1 12000
+update 12000
+show
+mover1 14000
+update 14000
+show
+mover1 24000
+update 24000
+show
+
+# recorrido NESW sin bateria
+pos 0 0
+vel 0 0
+rover R4 0 100.0
+mision M4 5
+pos 0 0
+addpos
+pos 0 100 
+addpos
+pos 500 100
+addpos
+pos 500 0
+addpos
+pos 0 0
+addpos
+
+mover1 0
+update 0
+show
+mover1 2000
+update 2000
+show
+mover1 12000
+update 12000
+show
+mover1 14000
+update 14000
+show
+mover1 24000
+update 24000
+show
+
+## escenario 3
+# recorrido W bateria
+pos 0 0
+vel 0 0
+rover R5 0 200.0
+mision M5 5
+pos 0 0
+addpos
+pos -600 0
+addpos
+pos 0 0
+addpos
+
+mover1 0
+update 0
+show
+mover1 12000
+update 12000
+show
+mover1 24000
+update 24000
+show
+
+# recorrido W sin bateria
+pos 0 0
+vel 0 0
+rover R6 0 150.0
+mision M6 5
+pos 0 0
+addpos
+pos -600 0 
+addpos
+pos 0 0
+addpos
+
+mover1 0
+update 0
+show
+mover1 12000
+update 12000
+show
+mover1 24000
+update 24000
+show
+
+
+## escenario 4
+# recorrido NE bateria
+pos 0 0
+vel 0 0
+rover R7 0 200.0
+mision M7 5
+pos 0 0
+addpos
+pos 200 200 
+addpos
+pos 400 400
+addpos
+pos 600 600
+addpos
+pos 800 800
+addpos
+
+mover1 0
+update 0
+show
+mover1 5656
+update 5656
+show
+mover1 11312
+update 11312
+show
+mover1 16968
+update 16968
+show
+mover1 22624
+update 22624
+show
+
+# recorrido NE sin bateria
+pos 0 0
+vel 0 0
+rover R8 0 100.0
+mision M8 5
+pos 0 0
+addpos
+pos 200 200 
+addpos
+pos 400 400
+addpos
+pos 600 600
+addpos
+pos 800 800
+addpos
+
+mover1 0
+update 0
+show
+mover1 5656
+update 5656
+show
+mover1 11312
+update 11312
+show
+mover1 16968
+update 16968
+show
+mover1 22624
+update 22624
+show
+
+
+## escenario 5
+# recorrido NW-W bateria
+pos 0 0
+vel 0 0
+rover R9 0 200.0
+mision M9 5
+pos 0 0
+addpos
+pos -200 200 
+addpos
+pos -400 400
+addpos
+pos 0 400
+addpos
+
+
+mover1 0
+update 0
+show
+mover1 5656
+update 5656
+show
+mover1 11314
+update 11314
+show
+mover1 19312
+update 19312
+show
+
+# recorrido NW-W sin bateria
+pos 0 0
+vel 0 0
+rover R10 0 100.0
+mision M10 5
+pos 0 0
+addpos
+pos -200 200 
+addpos
+pos -400 400
+addpos
+pos 0 400
+addpos
+
+
+mover1 0
+update 0
+show
+mover1 5656
+update 5656
+show
+mover1 11312
+update 11312
+show
+mover1 19312
+update 19312
+show
